@@ -10,8 +10,8 @@ const messagesList = ['The No Is For Decorative Purposes Only.', "You Can't Pres
 
 noButton.addEventListener('click', () => {
     noButton.style.position = 'fixed'
-    noButton.style.left = (Math.random() * window.innerWidth) + 'px'
-    noButton.style.top = (Math.random() * window.innerHeight) + 'px'
+    noButton.style.left = (Math.random() * document.body.clientWidth) + 'px'
+    noButton.style.top = (Math.random() * document.body.clientHeight) + 'px'
 
     if (i < 8) {
         noMessagesList.innerHTML += `<li> ${messagesList[i]} </li>`

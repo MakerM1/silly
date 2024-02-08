@@ -59,7 +59,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
   position: relative;
-  padding: 20px;
 }
 
 .main-section {
@@ -125,6 +124,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 5px;
+}
+.main-section .main-container .gif-container .no-messages li {
+  line-height: 18px;
 }
 .main-section .main-container .buttons-container {
   gap: 20px;
